@@ -1,0 +1,185 @@
+.login {
+    position: absolute;
+    width: 400px;
+    height: 343px;
+    left: 760px;
+    top: 378px;
+    background: linear-gradient(30.18deg, #F6BB8B -24.15%, #B57AB3 146.65%);
+    border-radius: 50px 50px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.bgc {
+    position: relative;
+}
+
+.promo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 115.96px;
+    left: calc(50% - 400px/2 - 8px);
+    top: 259px;
+}
+
+.log {
+    box-sizing: border-box;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.pass {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: #DDB6C3;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-start;
+    margin-top: 105px;
+}
+
+.signin {
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    background: linear-gradient(96deg, #B57AB3 -170.38%, #6BCDD4 -170.34%, #9E96F0 185.02%);
+    border-radius: 15px;
+    align-self: flex-end;
+    margin-bottom: 120px;
+}
+
+.signup {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 45px;
+    border: 1px solid #9E96F0;
+    border-radius: 15px;
+    align-self: flex-end;
+    margin-bottom: 68px;
+}
+
+.profile {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+
+.text-login {
+    position: absolute;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #8D8D8D;
+    font-family: Montserrat;
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.passicon {
+    position: absolute;
+    width: 27px;
+    height: 9px;
+    margin-left: 12px;
+    margin-top: 18px;
+
+}
+
+.text-pass {
+    position: absolute;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #8D8D8D;
+    font-family: Montserrat;
+    margin-left: 45px;
+    margin-top: 15px;
+
+}
+
+.text-in {
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 16px;
+    /* identical to box height */
+    color: #FFFFFF;
+    margin-left: 119px;
+    margin-top: 13px;
+
+}
+
+
+.text-up {
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    margin-left: 58px;
+    margin-top: 12px;
+}
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+.textpass {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+  }
+
+  .textin {
+    box-sizing: border-box;
+    width: 240px;
+    height: 42px;
+    background: #DDB6C3;
+    border: 0px solid #9E96F0;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 45px;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: #8D8D8D;
+    font-style: Montserrat;
+  }
+  
+  .signin:hover {
+    background: linear-gradient(97.07deg, #6BCDD4 29.29%, #9E96F0 325.3%);
+  }
+
+
+  .signup:hover {
+    background: linear-gradient(99.43deg, #FCDF99 31.84%, #F19850 139.73%);
+  }
